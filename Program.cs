@@ -80,3 +80,4 @@ var newFilePath = Path.Combine(directory, $"{fileName}.json");
 Console.WriteLine("Creating GeoJSON file...");
 File.WriteAllText(newFilePath, geoJson);
 Console.WriteLine($"GeoJSON created at: {newFilePath}");
+Console.ReadKey();
